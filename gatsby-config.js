@@ -3,7 +3,7 @@ module.exports = {
         title: "Unavu Kaadu (Food Forest)",
         titleTemplate: "",
         description: "Unavu Kaadu (Food Forest) - Food Forest gardening is a low-maintenance, sustainable, plant-based food production and agroforestry system based on woodland ecosystems, incorporating fruit and nut trees, shrubs, herbs, vines and perennial vegetables which have yields directly useful to humans.",
-        url: "http://www.unavukaadu.com",
+        siteUrl: "http://www.unavukaadu.com",
         image: "/images/logo.png",
         twitterUsername: "@unavukaadu",
     },
