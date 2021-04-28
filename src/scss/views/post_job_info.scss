@@ -1,0 +1,123 @@
+.postjob_info {
+    .hero_sec {
+
+        .pixl_form_group {
+            margin-bottom: 35px;
+
+            .input_desc{
+                height: 104px;
+                padding-right: 24px;
+            }
+        }
+
+        .title_wrap {
+            padding: 40px 0 35px;
+
+            .title {
+                font-size: 19px;
+                line-height: 1.28;
+                letter-spacing: 0.4px;
+                text-align: center;
+                color: #4e5862;
+                padding: 0 0 5px;
+            }
+
+            .sub_title {
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 1.28;
+                letter-spacing: 0.4px;
+                text-align: center;
+                color: #4e5862;
+                text-transform: capitalize;
+            }
+        }
+
+        .progress {
+            position: relative;
+            width: 100%;
+            height: 6px;
+            margin-bottom: 67px;
+            overflow: hidden;
+            background-color: #f5f5f5;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+        }
+
+        .cta_wrap {
+            margin: 71px 0 203px 0;
+            text-align: center;
+
+            .second_btn {
+                margin: 0 10px 0;
+            }
+
+            .fa-arrow-left {
+                opacity: 0.42;
+                color: #2e3d4e;
+                padding: 0 24px 0 0;
+            }
+
+            .fa-arrow-right {
+                opacity: 0.9;
+                color: #adb3fc;
+                padding: 0 0 0 24px;
+            }
+        }
+    }
+    .gl_input_text {
+        opacity: .56;
+        font-size: 12px;
+        color: #637282;
+        margin-left: 16px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .postjob_info {
+
+        .common_form_sec {
+            margin: 90px -15px 0;
+            .hero_sec {
+                margin: 47px 10px 0 10px;
+
+                .progress {
+                    right: 10px;
+                    width: 108%;
+                }
+
+                .pixl_form_group {
+                    .control-label {
+                        padding: 0 10px 7px;
+                    }
+
+                    .box_sec {
+                        width: 92%;
+                        margin: 0 0 0 12px;
+                    }
+                }
+
+                .cta_wrap {
+                    margin: 20px 0 30px;
+
+                    .second_btn {
+                        margin: 0 10px 20px;
+                    }
+
+                    .fa-arrow-left {
+                        padding: 0 15px 0 0;
+                    }
+
+                    .fa-arrow-right {
+                        padding: 0 0 0 15px;
+                    }
+                }
+            }
+        }
+
+        .navbar-header {
+            margin-left: 20px;
+        }
+    }
+}

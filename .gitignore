@@ -1,0 +1,7 @@
+#folders and files needs to be ignored while pushing to gitlab
+.cache
+public
+.idea
+.DS_Store
+package-lock.json
+node_modules
