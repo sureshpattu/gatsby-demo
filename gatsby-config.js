@@ -13,7 +13,8 @@ module.exports = {
         {
             resolve: "gatsby-plugin-google-analytics",
             options: {
-                trackingId: "x12348991sdf90",
+                trackingId: "G-EE68VEBZ5Z",
+                head: true,
             },
         },
         "gatsby-plugin-react-helmet",
@@ -21,7 +22,7 @@ module.exports = {
         {
             resolve: "gatsby-plugin-manifest",
             options: {
-                icon: "src/images/icon.png",
+                icon: "src/images/logo.png",
             },
         },
         "gatsby-plugin-sharp",
