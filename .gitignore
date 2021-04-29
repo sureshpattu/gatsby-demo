@@ -5,3 +5,8 @@ public
 .DS_Store
 package-lock.json
 node_modules
+*.un~
+.npmignore
+.babelrc
+yarn.lock
+dist/**
