@@ -2,10 +2,16 @@ import * as React from "react"
 import Header from '../components/header'
 import {StaticImage} from "gatsby-plugin-image";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const IndexPage = () => {
     return (
         <Layout>
+            <Seo page={{
+                title: '',
+                description: '',
+                baseUrl: ''
+            }}/>
             <div className="home_pg">
                 <Header/>
                 <div className="container">
