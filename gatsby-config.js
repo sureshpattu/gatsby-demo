@@ -8,18 +8,20 @@ module.exports = {
         twitterUsername: "@unavukaadu",
     },
     plugins: [
-        "gatsby-plugin-sass",
-        "gatsby-plugin-sharp",
-        "gatsby-plugin-react-helmet",
-        "gatsby-plugin-image",
-        "gatsby-plugin-offline",
         {
             resolve: "gatsby-plugin-google-analytics",
             options: {
                 trackingId: "G-EE68VEBZ5Z",
                 head: true,
+                anonymize: true,
+                anonymize_ip: true,
             },
         },
+        "gatsby-plugin-sass",
+        "gatsby-plugin-sharp",
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-image",
+        "gatsby-plugin-offline",
         "gatsby-plugin-sitemap",
         {
             resolve: "gatsby-plugin-manifest",
