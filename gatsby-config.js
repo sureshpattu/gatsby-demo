@@ -7,9 +7,7 @@ module.exports = {
         baseUrl: "http://www.unavukaadu.com/",
         image: `${__dirname}/src/images/logo.png`,
         twitterUsername: "@unavukaadu",
-        author:{
-
-        }
+        author: {}
     },
     plugins: [
         {
@@ -20,6 +18,7 @@ module.exports = {
                     optimize_id: "GTM-N4XL6VN",
                     anonymize_ip: true,
                     cookie_expires: 0,
+                    send_page_view: true
                 },
                 pluginConfig: {
                     head: false,
